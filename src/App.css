@@ -1,0 +1,167 @@
+.contain{
+  max-width: 959px;
+  height: 925px;
+  margin: auto;
+  background:url('./assets/IMG-20201101-WA0198.jpg') no-repeat center center fixed;
+  margin-top: 20px; 
+  position: relative;
+  border-radius: 10px;
+}
+.menu{
+  position: absolute;
+  right: 20px;
+  top:40px
+}
+.icon-bar{
+  width: 100%;
+ overflow: auto;
+  padding: 10px;
+}
+
+.icon-bar a{
+  float: left;
+  padding:12px 20px;
+  transition: all 0.3s ease;
+  color:white;
+  font-size: 18px;
+  text-align: center;
+  text-transform: none;
+  text-decoration: none;
+}
+.exp{
+  border-bottom: 1px solid #ccc;
+  padding-bottom:10px;
+  margin-top:10px;
+}
+.inner-skill{
+  float: left;
+}
+.skill{
+  border-bottom: 1px solid #ccc;
+  padding-bottom:10px;
+  margin-top:10px;
+  clear: both;
+  height: 125px;
+  position: relative;
+}
+
+.company-name{
+  margin:2px;
+}
+.position{
+  margin:2px;
+  color:#555;
+}
+
+
+.user-profile{
+  border-bottom: 1px solid #ccc;
+  padding-bottom:10px;
+}
+
+.user-name{
+  margin:1px;
+}
+.grey{
+  padding:0px;
+  color:#555;
+  margin:1px;
+  font-size: 14px;
+}
+
+.slider{
+  position:absolute;
+  top: 140px;
+  right:20px;
+  border-radius: 25px;
+}
+
+.duckmove{
+  position:absolute;
+  bottom:35px;
+}
+
+.duckinner{
+  position: relative;
+  width: 100%;
+}
+
+.mbtn-grad {background-image: linear-gradient(to right, #EB3349 0%, #F45C43  51%, #EB3349  100%)}
+.mbtn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .mbtn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+
+ .btn-grad {background-image: linear-gradient(to right, #f857a6 0%, #ff5858  51%, #f857a6  100%)}
+ .btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+.resume{
+  background-color: white;
+  padding:16px;
+  border-radius: 5px;
+}
+.portfolio{
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  color: white;
+  font-size: 14px;
+}
+.portfolio a{
+  text-decoration: none;
+  color:white;
+  text-shadow: white 0px 0.1px;
+}
+
+
+body{
+  background: #0099ff;
+  /* Firefox */
+  background: -moz-linear-gradient(top, #0099ff, #00ccff);
+  /* WebKit - Chrome and Safari */
+  background: -webkit-linear-gradient(top, #0099ff, #00ccff);
+  /* Internet Explorer 10 */
+  background: -ms-linear-gradient(top, #0099ff, #00ccff);
+  /* Opera */
+  background: -o-linear-gradient(top, #0099ff, #00ccff);
+  /* general syntax */
+  background: linear-gradient(top, #0099ff, #00ccff);
+}
+
+.flip-image{
+  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+}
